@@ -1,0 +1,17 @@
+requests
+
+# Data annotation and labeling
+labelImg==1.8.6
+
+# Mobile camera integration
+imutils
+
+# GUI and interface
+PyQt5
+
+# Utilities
+tqdm
+pathlib
+
+# Optional: For advanced features
+scikit-image
