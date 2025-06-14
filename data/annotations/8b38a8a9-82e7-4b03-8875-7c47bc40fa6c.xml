@@ -1,0 +1,26 @@
+<annotation>
+	<folder>positive</folder>
+	<filename>8b38a8a9-82e7-4b03-8875-7c47bc40fa6c.jpg</filename>
+	<path>R:\py\data\positive\8b38a8a9-82e7-4b03-8875-7c47bc40fa6c.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3201</width>
+		<height>4265</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>scooter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>555</xmin>
+			<ymin>278</ymin>
+			<xmax>2832</xmax>
+			<ymax>3978</ymax>
+		</bndbox>
+	</object>
+</annotation>
