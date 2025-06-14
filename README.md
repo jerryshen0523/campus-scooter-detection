@@ -203,44 +203,6 @@ python data_collection.py --action import --source /path/to/false_positives --ty
 3. 標註完整的滑板車（包含車輪、把手、踏板）
 4. 移除模糊或部分遮蔽的樣本
 
-### 測試和驗證
-
-**階段性測試:**
-```bash
-# 測試不同階段的模型
-python demo.py --cascade data/trained_model/cascade.xml --test_mode
-
-# 記錄誤偵測案例
-python demo.py --cascade data/trained_model/cascade.xml --log_detections
-
-# 批次測試多個影像
-python demo.py --cascade data/trained_model/cascade.xml --batch_test /path/to/test/images
-```
-
-## 🎬 展示視頻錄製 Demo Video Recording
-
-系統自動支援視頻錄製功能：
-
-```bash
-# 錄製展示視頻
-python scooter_detector.py \
-    --cascade data/trained_model/cascade.xml \
-    --source 0 \
-    --output demo_video.avi
-
-# 手機攝影機錄製
-python demo.py --mobile --cascade data/trained_model/cascade.xml
-# 在執行過程中會自動錄製
-```
-
-## 📈 效能評估 Performance Evaluation
-
-### 評估指標
-- **精確度 (Precision)**: TP / (TP + FP)
-- **召回率 (Recall)**: TP / (TP + FN)
-- **F1分數**: 2 × (Precision × Recall) / (Precision + Recall)
-- **即時性**: FPS（每秒處理幀數）
-
 ### 測試建議
 1. 準備多樣化的測試影像
 2. 記錄不同光照條件下的表現
