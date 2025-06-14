@@ -238,6 +238,16 @@ pip install opencv-contrib-python
 - 調整偵測參數（scaleFactor, minNeighbors）
 - 重新檢查標註品質
 
+**Q: TypeError: setValue(self, a0: int): argument 1 has unexpected type 'float'**
+- 找到 labelImg.py 第 965 行（或相關 scroll_request 函數），將
+```bash
+bar.setValue(bar.value() + bar.singleStep() * units)
+```
+改成
+```bash
+bar.setValue(int(bar.value() + bar.singleStep() * units))
+```
+
 ## 📧 聯絡資訊 Contact
 
 - **作者**: [沈冠廷]
