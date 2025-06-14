@@ -282,4 +282,4 @@ pip install opencv-contrib-python
 - **學號**: [1120417]
 - **Email**: [s1120417@mail.yzu.edu.tw]
 - **課程**: EEB215A 電腦視覺與影像處理概論
-- **GitHub**: [https://github.com/your-username/campus-scooter-detection](https://github.com/your-username/campus-scooter-detection)
+- **GitHub**: [https://github.com/jerryshen0523/campus-scooter-detection](https://github.com/jerryshen0523/campus-scooter-detection)
